@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Interactive Photo Gallery</h1>
+    </header>
+    <section class="filters">
+        <button data-filter="all">All</button>
+        <button data-filter="nature">Nature</button>
+        <button data-filter="architecture">Architecture</button>
+        <button data-filter="people">People</button>
+    </section>
+    <section class="gallery">
+        <div class="gallery-item" data-category="nature"><img src="c:\Users\Malak\OneDrive\Pictures\depositphotos_125786822-stock-photo-autumn-forest-inspirational-landscape-fall.jpg" alt="Nature 1"></div>
+        <div class="gallery-item" data-category="nature"><img src="c:\Users\Malak\OneDrive\Pictures\images (5).jpeg" alt="Nature 2"></div>
+        <div class="gallery-item" data-category="architecture"><img src="c:\Users\Malak\OneDrive\Pictures\360_F_190612024_BKjOap5f9q8vf3g5M1G6QXcR73jhd2Fe.jpg" alt="Architecture 1"></div>
+        <div class="gallery-item" data-category="architecture"><img src="c:\Users\Malak\OneDrive\Pictures\360_F_281897358_3rj9ZBSZHo5s0L1ug7uuIHadSxh9Cc75.jpg" alt="Architecture 2"></div>
+        <div class="gallery-item" data-category="people"><img src="c:\Users\Malak\OneDrive\Pictures\istockphoto-1127397467-612x612.jpg" alt="People 1"></div>
+        <div class="gallery-item" data-category="people"><img src="c:\Users\Malak\OneDrive\Pictures\istockphoto-1434340928-612x612.jpg" alt="People 2"></div>
+    </section>
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
